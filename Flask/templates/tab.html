@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='tab.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ml model</title>
+</head>
+<body>
+
+    <h1>
+        Implementation example of ML model
+    </h1>
+  
+        <div>
+          <h4>Braile</h4>
+          <form method="post" enctype="multipart/form-data" >
+            <input type="file" name="file1" />
+            <!--div style = "padding-left:30%; padding-top: 10%;" -->
+            <input type="submit"name = "tumry"/>
+            <!--/div-->
+        </form>
+        <h3>
+            Output: {{DATA}}
+        </h3>
+        </div>
+
+
+</body>
+</html>
